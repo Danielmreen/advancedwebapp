@@ -60,11 +60,12 @@ https://templatemo.com/tm-580-woox-travel
                         <li><a href="index.html" class="active">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="deals.html">Explore</a></li>
-                        <li>@if (Route::has('login'))
-                <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
+                        <li>
+                          @if (Route::has('login'))
+                       <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
                         <li>
-                          <x-app-layout>
+                          <x-app-layout> 
                          </x-app-layout>
                         </li>
                     @else
@@ -103,7 +104,7 @@ https://templatemo.com/tm-580-woox-travel
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-8">
+        <div class="col-lg-6">
           <div class="items">
             <div class="row">
               <div class="col-lg-12">
@@ -218,15 +219,7 @@ let me provide you with the details of your WORLD CUP FAN-<a href="https://paypa
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="side-bar-map">
-            <div class="row">
-              <div class="col-lg-12">
-                
-              </div>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </div>
   </div>
