@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\homeControl;
+use App\Http\Controllers\adminControl;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,6 +22,8 @@ Route::get("/redirect",[homeControl::class,"redirectFunct"]);
 
 
 Route::get("/users",[adminControl::class,"user"]);
+
+Route::get("/pageevent",[homeControl::class,"eventpage"]);
 
 Route::middleware([
     'auth:sanctum',

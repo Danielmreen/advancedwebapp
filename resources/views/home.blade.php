@@ -52,13 +52,13 @@ https://templatemo.com/tm-580-woox-travel
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
                     
-                        <a href="/" style="font-family:Chalkduster,sans-serif;font-size:50px;text-align:left"> EventHub</a>
+                        <a href="/" style="font-family:sans-serif;font-size:50px;text-align:left;color:white"> EventHub</a>
                    
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
                         <li><a href="index.html" class="active">Home</a></li>
-                        <li><a href="about.html">About</a></li>
+                        
                         <li><a href="deals.html">Explore</a></li>
                         <li>
                           @if (Route::has('login'))
@@ -78,9 +78,9 @@ https://templatemo.com/tm-580-woox-travel
                 </div>
             @endif</li>
                     </ul>   
-                    <a class='menu-trigger'>
+                    <!--<a class='menu-trigger'>
                         <span>Menu</span>
-                    </a>
+                    </a>-->
                     <!-- ***** Menu End ***** -->
                 </nav>
             </div>
@@ -104,7 +104,7 @@ https://templatemo.com/tm-580-woox-travel
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-12">
           <div class="items">
             <div class="row">
               <div class="col-lg-12">
@@ -120,7 +120,7 @@ https://templatemo.com/tm-580-woox-travel
                         <h4>JCCU Movie Night</h4>
                         <span>BV Theatre</span>
                         <div class="main-button">
-                          <a href="about.html">View Details</a>
+                          <a href="/pageevent">View Details</a>
                         </div>
                         <p>Tired of watching movies alone at home?👀
 
@@ -155,7 +155,19 @@ Food and drinks will also be available there. 🍿🥤</p>
                         <div class="main-button">
                           <a href="about.html">View Details</a>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                        <p>Interesting discussion alert!
+
+ 
+
+Buckle up, it's going to be a captivating sharing session in collaboration with The Social Security Organization (SOCSO) entitled Tuntutan Faedah & Portal MYFutureJobs.
+
+ 
+
+For your information, the main function of SOCSO is to provide social security protection to employees and their dependents through the Employment Injury Scheme and the Invalidity Scheme.
+
+ 
+
+“PERKESO itu Prihatin, Prihatin itu PERKESO”</p>
                         <ul class="info">
                           <li><i class="fa fa-user"></i> 50 quota</li>
                           <li><i class="fa fa-globe"></i> </li>
@@ -179,7 +191,7 @@ Food and drinks will also be available there. 🍿🥤</p>
                     </div>
                     <div class="col-lg-8 col-sm-7">
                       <div class="right-content">
-                        <h4>FIFA WORLD CUP FAN-ZONE. </h4>
+                        <h4>FIFA WORLD CUP FAN-ZONE</h4>
                         <span>The Link COE</span>
                         <div class="main-button">
                           <a href="about.html">View Details</a>

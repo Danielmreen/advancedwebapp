@@ -24,4 +24,8 @@ class homeControl extends Controller
             return view('home');
         }
     }
+
+    function eventpage(){
+        return view("pageevent");
+    }
 }
